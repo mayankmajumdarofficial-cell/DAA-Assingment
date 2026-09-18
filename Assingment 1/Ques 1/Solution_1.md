@@ -29,13 +29,10 @@ Constraints:
     1 <= nums.length <= 104
     -104 < nums[i], target < 104
     All the integers in nums are unique.
-    nums is sorted in ascending order.
+    nums is sorted in ascending order
 
 
-
-
-
-class Solution {
+    class Solution {
     public int search(int[] nums, int target) {
         int l=0 ,r=nums.length-1;
         while(l<=r){
@@ -46,4 +43,4 @@ class Solution {
         }
         return -1;
     }
-}
+    }
